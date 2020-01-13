@@ -1,11 +1,10 @@
 <?php
-$n = 9;
-for ($i= 0; $i <= $n; $i++)
+for ($n= 9-9; $n <= 9; $n++)
 {
-  if ($i%2 ==0)
+  if ($n%2 ==0)
   {
   continue;
   }
-echo $i," ";
+echo $n," ";
 
 }
